@@ -80,8 +80,8 @@
       \item A practical implementation of Alonzo Church's ideas.
       \item A set of \textbf{ideas}, not a set of strict
         guidelines.
-      \item A function is a \textbf{very basic} unit in
-        functional programming.
+      \item \textbf{A function is a very basic unit in
+          functional programming.}
       \end{itemize}
     \end{column}
   \end{columns}
@@ -108,10 +108,9 @@
   opposite of object-oriented programming.
 \end{frame}
 
-\subsection{Theoretical and Practical Advantages}
-
 
 \begin{frame}
+  \frametitle{Theoretical and Practical Advantages}
 Functional design may seem like an odd constraint to work
 under\footnote{And it is indeed.}. Why should you avoid objects and
 side effects? Some sharp benefits are:
@@ -123,15 +122,55 @@ side effects? Some sharp benefits are:
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+  \begin{itemize}
+    \item Formal provability. It's easier to construct a
+      \textbf{mathematical proof} that a functional program is correct.\\[4pt]
+    \item Modularity. It forces you to break apart your problem into
+      \textbf{small pieces}.\\[4pt]
+    \item Composability. Over time you will form a personal library of
+      utilities. It's because of the modularity benefit.\\[4pt]
+    \item Ease of debugging and testing. For debugging: functions are
+      generally small and clearly specified. For testing: each
+      function is a potential subject fir a unit test.
+  \end{itemize}
+\end{frame}
+
 
 
 \section{More Details}
 
 
-\begin{frame}
-  
+\begin{frame}[fragile,containsverbatim]
+  \frametitle{Concurrency}
+A functional program is ready for concurrency without any further
+modifications.
+\begin{block}{Toy Code in Concurrency}
+\begin{verbatim}
+String s1 = somewhatLongOperation1();
+String s2 = somewhatLongOperation2();
+String s3 = concatenate(s1, s2);
+\end{verbatim}
+\end{block}
+As shown above, even if your application is inherently single
+threaded, the \textbf{compiler}\footnote{The compiler plays a vital role.} can still optimize
+functional programs to run on multiple CPUs.
 \end{frame}
 
+% Add some sample code from Erlang when the Internet is back.
+\begin{frame}
+  \frametitle{Hot Code Deployment}
+In a functional program all state is stored on the stack in the
+arguments passed to functions. All we'd really have to do is run a
+diff between the code in production and the new version, and deploy
+the new code.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Higher Order Functions}
+
+\end{frame}
 \section{Dream Language}
 
 

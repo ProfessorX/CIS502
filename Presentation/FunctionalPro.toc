@@ -1,6 +1,5 @@
 \beamer@endinputifotherversion {3.26pt}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Functional Programming at a Glimpse}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Theoretical and Practical Advantages}{8}{0}{2}
-\beamer@sectionintoc {3}{More Details}{9}{0}{3}
-\beamer@sectionintoc {4}{Dream Language}{10}{0}{4}
+\beamer@sectionintoc {3}{More Details}{10}{0}{3}
+\beamer@sectionintoc {4}{Dream Language}{12}{0}{4}

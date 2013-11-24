@@ -1,6 +1,13 @@
-\begin{block}{Your Code}
+\frametitle{Concurrency}
+A functional program is ready for concurrency without any further
+modifications.
+\begin{block}{Toy Code in Concurrency}
 \begin{verbatim}
-Put your code here.
+String s1 = somewhatLongOperation1();
+String s2 = somewhatLongOperation2();
+String s3 = concatenate(s1, s2);
 \end{verbatim}
-  \end{block}
-
+\end{block}
+As shown above, even if your application is inherently single
+threaded, the \textbf{compiler}\footnote{The compiler plays a vital role.} can still optimize
+functional programs to run on multiple CPUs.
