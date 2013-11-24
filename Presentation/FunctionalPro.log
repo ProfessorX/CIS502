@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  24 NOV 2013 17:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  24 NOV 2013 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -933,13 +933,31 @@ x.map}] (./FunctionalPro.toc) [2
 
 ] [3
 
-] [4
+]
+<iMac-500.jpg, id=130, 376.40625pt x 325.96782pt>
+File: iMac-500.jpg Graphic file (type jpg)
+ <use iMac-500.jpg>
+Package pdftex.def Info: iMac-500.jpg used on input line 51.
+(pdftex.def)             Requested size: 112.92273pt x 97.79109pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
-] [5
+(/home/abrahamx91/Programs/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+
+(/home/abrahamx91/Programs/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[4
+
+ <./iMac-500.jpg>] [5
 
 ] [6
 
 ] [7
+
+] [8
 
 ]
 \tf@nav=\write6
@@ -951,11 +969,11 @@ x.map}] (./FunctionalPro.toc) [2
 \tf@snm=\write8
 \openout8 = `FunctionalPro.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (./FunctionalPro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `FunctionalPro.out' has not changed.
 (rerunfilecheck)             Checksum: 2ACB5A83863E94F43F7C9A0E59181E65;213.
 
@@ -963,14 +981,14 @@ Package rerunfilecheck Info: File `FunctionalPro.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 15629 strings out of 493315
- 298964 string characters out of 6131250
+ 15716 strings out of 493315
+ 300642 string characters out of 6131250
  369591 words of memory out of 5000000
- 18704 multiletter control sequences out of 15000+600000
- 5810 words of font info for 21 fonts, out of 8000000 for 9000
+ 18760 multiletter control sequences out of 15000+600000
+ 10157 words of font info for 38 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,17n,60p,409b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/abrahamx91/Programs/texlive/2013/texmf-dist/fonts/type1/public/amsfont
@@ -978,10 +996,10 @@ s/cm/cmss12.pfb></home/abrahamx91/Programs/texlive/2013/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmss17.pfb></home/abrahamx91/Programs/texlive/2013/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/abrahamx91/Programs/texlive/2
 013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on FunctionalPro.pdf (7 pages, 57262 bytes).
+Output written on FunctionalPro.pdf (8 pages, 91720 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
