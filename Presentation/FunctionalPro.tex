@@ -32,19 +32,20 @@
 \begin{center}
 ``Programming languages have almost caught up with 1958.''
 \end{center}
-\hfill  Paul Graham  
+\hfill Paul Graham  
 \end{frame}
 
 \begin{frame}
   \frametitle{A Bit of History}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      \includegraphics[scale=0.3]{iMac-500}
+      \includegraphics[scale=0.3]{Figure/iMac-500}
     \end{column}
     \begin{column}{0.5\textwidth}
       Question about \emph{computation}.\\[4pt]
-      If we had machines that have infinite computational power, what
-      problems would we be able to solve?
+      If we had machines that have \textbf{infinite}
+      computational power,\\
+      what problems would we be able to solve?
     \end{column}
   \end{columns}
   
@@ -67,12 +68,62 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Functional Programming ABC}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[scale=0.4]{Figure/Alonzo_Church.jpg}\\
+      Alonzo Church
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+      \item A practical implementation of Alonzo Church's ideas.
+      \item A set of \textbf{ideas}, not a set of strict
+        guidelines.
+      \item A function is a \textbf{very basic} unit in
+        functional programming.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+
 \section{Functional Programming at a Glimpse}
 
 
 \begin{frame}
-  
+  \frametitle{Functional or Object-Oriented?}
+  Objects are little capsules, containing \ldots
+  \begin{itemize}
+    \item Some internal states.
+    \item A collection of method calls.\\[6pt]
+  \end{itemize}
+  Functional programming tries to \ldots
+  \begin{itemize}
+    \item Avoid state changes.
+    \item Works with data flowing between \textbf{functions}.\\[4pt]
+  \end{itemize}
+  In this manner, functional programming can be considered the
+  opposite of object-oriented programming.
 \end{frame}
+
+\subsection{Theoretical and Practical Advantages}
+
+
+\begin{frame}
+Functional design may seem like an odd constraint to work
+under\footnote{And it is indeed.}. Why should you avoid objects and
+side effects? Some sharp benefits are:
+\begin{itemize}
+  \item Formal provability.\\[4pt]
+  \item Modularity.\\[4pt]
+  \item Composability.\\[4pt]
+  \item Ease of debugging and testing.\\[4pt]
+\end{itemize}
+\end{frame}
+
+
 
 \section{More Details}
 
@@ -85,7 +136,8 @@
 
 
 \begin{frame}
-  
+% \bibliographystyle{plain}
+% \bibliography{Reference}
 \end{frame}
 
 
