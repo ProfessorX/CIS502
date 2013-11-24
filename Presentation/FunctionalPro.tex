@@ -167,10 +167,32 @@ the new code.
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile,containsverbatim]
   \frametitle{Higher Order Functions}
+Functional languages offer a different kind of abstraction tools that
+make you forget you've ever \textbf{liked} modifying variables. One such
+tool is the capability to work with \textbf{higher order functions}.
+\begin{block}{Add Function}
+\begin{verbatim}
+class add_function_t{
+    int add(int i, int j) {
+        return i + j;
+    }
+}
+
+add_function_t add = new add_function_t();
+\end{verbatim}
+\end{block}
+Functions that operate on other functions are called higher order
+functions. It's no different from Java classes.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Currying}
 
 \end{frame}
+
+
 \section{Dream Language}
 
 
@@ -186,4 +208,4 @@ the new code.
 \end{document}
 
 
-% Someone like you.
+% Someone is like you.
