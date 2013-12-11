@@ -1,6 +1,7 @@
 (TeX-add-style-hook "FunctionalPro"
  (lambda ()
     (TeX-run-style-hooks
+     "url"
      "amsmath"
      ""
      "latex2e"

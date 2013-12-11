@@ -2,6 +2,7 @@
 
 % Package and Theme
 \usepackage{amsmath}
+\usepackage{url}
 % I suppose listings is no longer needed.
 % \usepackage{listings}
 \usetheme{AnnArbor}
@@ -153,8 +154,8 @@ String s3 = concatenate(s1, s2);
 \end{verbatim}
 \end{block}
 As shown above, even if your application is inherently single
-threaded, the \textbf{compiler}\footnote{The compiler plays a vital role.} can still optimize
-functional programs to run on multiple CPUs.
+threaded, the \textbf{compiler}\footnote{The compiler plays a vital
+  role.} can still optimize functional programs to run on multiple CPUs.
 \end{frame}
 
 % Add some sample code from Erlang when the Internet is back.
@@ -167,11 +168,12 @@ the new code.
 
 \end{frame}
 
-\begin{frame}[fragile,containsverbatim]
+\begin{frame}[fragile,containsverbatim,shrink]
   \frametitle{Higher Order Functions}
 Functional languages offer a different kind of abstraction tools that
 make you forget you've ever \textbf{liked} modifying variables. One such
-tool is the capability to work with \textbf{higher order functions}.
+tool is the capability to work with \textbf{higher order
+  functions}.
 \begin{block}{Add Function}
 \begin{verbatim}
 class add_function_t{
@@ -183,23 +185,104 @@ class add_function_t{
 add_function_t add = new add_function_t();
 \end{verbatim}
 \end{block}
-Functions that operate on other functions are called higher order
-functions. It's no different from Java classes.
+In functions we trust.
+% Functions that operate on other functions are called higher order
+% functions. It's no different from Java classes.
 \end{frame}
+
+\begin{frame}[fragile,containsverbatim]
+  \frametitle{Currying}
+In a functional language one does not need design patterns because the
+language is likely so high level, you end up programming in concepts
+that eliminate design patterns all together.
+\begin{block}{Currying}
+\begin{verbatim}
+int pow(int i, int j);
+int square(int i)
+{
+    return pow(i, 2);
+}
+\end{verbatim}
+\end{block}
+Recall: \textbf{functions} are passed around as arguments.
+\end{frame}
+
+\begin{frame}[fragile,containsverbatim]
+In functional programming, it looks like this.
+\begin{block}{}
+\begin{verbatim}
+square = int pow(int i, 2);
+\end{verbatim}
+\end{block}
+This will automatically create a function \emph{square} for us with
+one argument.
+\end{frame}
+
 
 \begin{frame}
-  \frametitle{Currying}
+  \frametitle{Lazy Evaluation}
+Operations can only be run when another function depends on
+them\footnote{Thank you! Compiler.}. Some advantages are \ldots
+\begin{itemize}
+  \item Optimization. Code can be reasoned about
+    mathematically\footnote{Revenge of the nerds!}. 
+  \item Abstracting control structures. Seemingly impossible code can
+    be implemented.
+  \item Infinite data structures. With functional programming, we can
+    simply define an infinite list of Fibonacci numbers. 
+\end{itemize}
+Disadvantage. It's ``lazy''. No strict evaluation can be guaranteed. 
+\end{frame}
 
+\begin{frame}[fragile,containsverbatim]
+  \frametitle{Continuation}
+A ``continuation'' is a parameter we may choose to pass to our
+function that specifies where the function should return.
+\begin{block}{Continuation}
+\begin{verbatim}
+int i = add(5, 10);
+int j = square(i);
+### A continuation approach ###
+int j = add(5, 10, square);
+\end{verbatim}
+\end{block}
+At any given point you can ask for a \textbf{current continuation},
+which is simply the information on the stack.
 \end{frame}
 
 
-\section{Dream Language}
+\begin{frame}
+  \frametitle{Real World Applications}
+The Erlang programming language, developed by Ericsson.
+\begin{itemize}
+\item originally used in fault-tolerant telecommunications systems.
+\item be popular among companies like  T-Mobile, Nortel, Facebook, Electricite de France and WhatsApp.\\[6pt]
+\end{itemize}
+The Scheme programming language, a dialect of lisp, is taught at a
+graduate level course\footnote{\url{http://mitpress.mit.edu/sicp/}} in MIT.
+\end{frame}
+
+
+\section{The Dream Language}
 
 
 \begin{frame}
 % \bibliographystyle{plain}
 % \bibliography{Reference}
+The dream language is clean and terse. It has an interactive top level
+that starts up fast. You can write programs to solve common problems
+with very little code. Nearly all the code in any program you write is
+code that's specific to your application. Everything else has been
+done for you.\\
+% \begin{itemize}
+%   \item Clean and terse.
+%   \item Has an interactive top level that stars up fast.
+%   \item 
+% \end{itemize}
+\hfill Excerpt from ``Hackers and Painters''
 \end{frame}
+
+
 
 
 

@@ -1,0 +1,21 @@
+需求文档：
+	输入：某【有效】的IPv4,IPv6地址。（IPv6可以不实现，软件自身也不支持。）
+	地址有效性的检验貌似在shared.py文件里有函数支持。
+	输出：IP+port number。作为字典元素，写入到allKnownNodes字典中。字典通过
+	pickle（官方自带模块）dump到knownnodes.dat文件中。
+
+
+	实现方式：addKnownNodes()函数。通过一个简单的Qt UI界面获取IP和端口号，
+	作为输入数据，输出到allKnownNodes字典。字典调用pickle模块重新dump一次
+	到knwonnodes.dat文件。
+
+dump过程的原作者实现：
+    with open(appdata + 'knownnodes.dat', 'wb') as output:
+        # Pickle dictionary using protocol 0.
+        pickle.dump(allKnownNodes, output)
+
+
+Note:
+pickle模块不算复杂，这个需求应该。。只需要用到dump功能。你要是觉得其他功能
+也不错，创新就是你的功劳了。
+		

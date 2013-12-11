@@ -1,13 +1,13 @@
-\frametitle{Concurrency}
-A functional program is ready for concurrency without any further
-modifications.
-\begin{block}{Toy Code in Concurrency}
+\frametitle{Continuation}
+A ``continuation'' is a parameter we may choose to pass to our
+function that specifies where the function should return.
+\begin{block}{Continuation}
 \begin{verbatim}
-String s1 = somewhatLongOperation1();
-String s2 = somewhatLongOperation2();
-String s3 = concatenate(s1, s2);
+int i = add(5, 10);
+int j = square(i);
+### A continuation approach ###
+int j = add(5, 10, square);
 \end{verbatim}
 \end{block}
-As shown above, even if your application is inherently single
-threaded, the \textbf{compiler}\footnote{The compiler plays a vital role.} can still optimize
-functional programs to run on multiple CPUs.
+At any given point you can ask for a \textbf{current continuation},
+which is simply the information on the stack.
