@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Mukesh_Abraham_writeup_V1_today.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+I was expecting a `,' or a `}'---line 30 of file sigproc.bib
+ : 
+ : year = {2012}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 50 of file sigproc.bib
+ : 
+ : %keywords={Security requirements; Privacy requirements; Legal compliance; Refactoring requirements},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 63 of file sigproc.bib
+ : 
+ : %note = "Formal Methods, Techniques and Tools for Secure and Reliable Applications",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 84 of file sigproc.bib
+ : 
+ : % numpages = {5},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 105 of file sigproc.bib
+ : 
+ : %keywords={Lightweight text analysis; Model generation},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 116 of file sigproc.bib
+ : 
+ : %editor={Reimer, Ulrich and Karagiannis, Dimitris},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 132 of file sigproc.bib
+ : 
+ : %editor={Nurcan, Selmin},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 150 of file sigproc.bib
+ : 
+ : %URL = {http://www.worldscientific.com/doi/abs/10.1142/S0218194007003240},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Jaelson01
+Warning--empty title in Nadzeya06
+Warning--empty publisher in Nadzeya06
+Warning--empty title in Michalis12
+Warning--empty publisher in Michalis12
+Warning--empty journal in JW12
+Warning--empty year in JW12
+(There were 8 error messages)

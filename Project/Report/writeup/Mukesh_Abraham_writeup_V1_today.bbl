@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{Jaelson01}
+J.~Castro, M.~Kolp, and J.~Mylopoulos.
+\newblock A requirements-driven development methodology.
+\newblock 2001.
+
+\bibitem{Nadzeya08}
+N.~Kiyavitskaya and N.~Zannone.
+\newblock Requirements model generation to support requirements elicitation:
+  the secure tropos experience.
+\newblock {\em Automated Software Engineering}, 15(2):149--173, 2008.
+
+\bibitem{Nadzeya06}
+N.~Kiyavitskaya, N.~Zeni, L.~Mich, J.~Cordy, and J.~Mylopoulos.
+\newblock In {\em Practical Aspects of Knowledge Management}, volume 4333 of
+  {\em Lecture Notes in Computer Science}. 2006.
+
+\bibitem{Massacci2005445}
+F.~Massacci, M.~Prest, and N.~Zannone.
+\newblock Using a security requirements engineering methodology in practice:
+  The compliance with the italian data protection legislation.
+\newblock {\em Computer Standards and Interfaces}, 27(5):445 -- 455, 2005.
+
+\bibitem{Aaronk10}
+A.~Massey, P.~Otto, L.~Hayward, and A.~Antón.
+\newblock Evaluating existing security and privacy requirements for legal
+  compliance.
+\newblock {\em Requirements Engineering}, 15(1), 2010.
+
+\bibitem{citeulike:6509963}
+R.~Matulevi\v{c}ius, N.~Mayer, H.~Mouratidis, E.~Dubois, P.~Heymans, and
+  N.~Genon.
+\newblock {Adapting Secure Tropos for Security Risk Management in the Early
+  Phases of Information Systems Development}.
+\newblock In Z.~Bellahs\`{e}ne and M.~L\'{e}onard, editors, {\em Advanced
+  Information Systems Engineering}, volume 5074 of {\em Lecture Notes in
+  Computer Science}, chapter~40, pages 541--555. Springer Berlin Heidelberg,
+  Berlin, Heidelberg, 2008.
+
+\bibitem{Mouratidis06securetropos:}
+H.~Mouratidis and P.~Giorgini.
+\newblock Secure tropos: A security-oriented extension of the tropos
+  methodology, 2006.
+
+\bibitem{Michalis12}
+M.~Pavlidis, S.~Islam, and H.~Mouratidis.
+\newblock In {\em IS Olympics: Information Systems in a Diverse World}, volume
+  107 of {\em Lecture Notes in Business Information Processing}. 2012.
+
+\bibitem{Rehman:2009:RSD:1640162.1640171}
+S.~Rehman and K.~Mustafa.
+\newblock Research on software design level security vulnerabilities.
+\newblock {\em SIGSOFT Softw. Eng. Notes}, 34(6):1--5, Dec. 2009.
+
+\bibitem{37844699}
+J.~Rowley.
+\newblock {Using case studies in research}.
+\newblock {\em Management Research News}, 25:16--27, 2002.
+
+\bibitem{Husam}
+H.~Suleiman and D.~Svetinovic.
+\newblock Evaluating the effectiveness of the security quality requirements
+  engineering (square) method: a case study using smart grid advanced metering
+  infrastructure.
+\newblock {\em Requirements Engineering}, 18(3):251--279, 2013.
+
+\bibitem{JW12}
+J.~Warren.
+\newblock Bitmessage white paper, bitmessage: A peertopeer message
+  authentication and delivery system.
+
+\end{thebibliography}

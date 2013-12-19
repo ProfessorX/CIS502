@@ -1,0 +1,76 @@
+%%old references
+@inproceedings{DBLP:conf/dagstuhl/Koschke06,
+  author    = {Rainer Koschke},
+  title     = {Survey of Research on Software Clones},
+  booktitle = {Duplication, Redundancy, and Similarity in Software},
+  year      = {2006},
+  ee        = {http://drops.dagstuhl.de/opus/volltexte/2007/962},
+  crossref  = {DBLP:conf/dagstuhl/2006P6301},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{DBLP:conf/icse/Nadi04,
+  author    = {Sarah Nadi},
+  title     = {A study of variability spaces in open source software},
+  booktitle = {ICSE},
+  year      = {2013},
+  pages     = {1353-1356},
+  ee        = {http://dl.acm.org/citation.cfm?id=2487004},
+  crossref  = {DBLP:conf/icse/2013},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{DBLP:conf/kbse/BergerSLWC10,
+  author    = {Thorsten Berger and
+               Steven She and
+               Rafael Lotufo and
+               Andrzej Wasowski and
+               Krzysztof Czarnecki},
+  title     = {Variability modeling in the real: a perspective from the
+               operating systems domain},
+  booktitle = {ASE},
+  year      = {2010},
+  pages     = {73-82},
+  ee        = {http://doi.acm.org/10.1145/1858996.1859010},
+  crossref  = {DBLP:conf/kbse/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{benavides2010automated,
+  title={Automated analysis of feature models 20 years later: A literature review},
+  author={Benavides, David and Segura, Sergio and Ruiz-Cort{\'e}s, Antonio},
+  journal={Information Systems},
+  volume={35},
+  number={6},
+  pages={615--636},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@inproceedings{DBLP:conf/eurosys/TartlerLSS11,
+  author    = {Reinhard Tartler and
+               Daniel Lohmann and
+               Julio Sincero and
+               Wolfgang Schr{\"o}der-Preikschat},
+  title     = {Feature consistency in compile-time-configurable system
+               software: facing the linux 10, 000 feature problem},
+  booktitle = {EuroSys},
+  year      = {2011},
+  pages     = {47-60},
+  ee        = {http://doi.acm.org/10.1145/1966445.1966451},
+  crossref  = {DBLP:conf/eurosys/2011},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{DBLP:conf/dagstuhl/DeanPKW06,
+  author    = {Thomas R. Dean and
+               Massimiliano Di Penta and
+               Kostas Kontogiannis and
+               Andrew Walenstein},
+  title     = {Clone Detector Use Questions: A List of Desirable Empirical
+               Studies},
+  booktitle = {Duplication, Redundancy, and Similarity in Software},
+  year      = {2006},
+  ee        = {http://drops.dagstuhl.de/opus/volltexte/2007/969},
+  crossref  = {DBLP:conf/dagstuhl/2006P6301},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
